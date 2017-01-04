@@ -3,9 +3,9 @@
 var angular = require('angular');
 require('angular-mocks');
 
-
 /* Test App initialization */
-var app = angular.module('test-app', [
+// var app =
+angular.module('test-app', [
 	'ngMock',
 	require('../src/index.js')
 ]);

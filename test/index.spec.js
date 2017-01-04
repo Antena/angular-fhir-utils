@@ -1,12 +1,13 @@
 'use strict';
 
-describe('antena.angular-fhir-utils services', function () {
+/*jshint expr: true*/
+describe('angular-fhir-utils services', function() {
 
 	// Define global references for injections.
 	var FhirBundleResolver,
 		FhirRange;
 
-	beforeEach(angular.mock.module('antena.angular-fhir-utils'));
+	beforeEach(angular.mock.module('angular-fhir-utils'));
 
 	beforeEach(angular.mock.inject(function(FhirBundleResolverService, FhirRangeService) {
 
@@ -16,7 +17,7 @@ describe('antena.angular-fhir-utils services', function () {
 
 	}));
 
-	describe('FhirRangeService', function () {
+	describe('FhirRangeService', function() {
 
 		describe("valueToYears", function() {
 

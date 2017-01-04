@@ -25,3 +25,5 @@ dist
 # Project files
 tmp
 bin
+docs
+test

@@ -1,5 +1,6 @@
-var path = require('path'),
-	webpack = require("webpack");
+'use strict';
+
+require("webpack");
 
 var config = {
 	context: __dirname,
@@ -7,7 +8,7 @@ var config = {
 		'bundle': './test/test-app.js'
 	},
 	output: {
-		path: "test",
+		path: "dist",
 		filename: "bundle.js"
 	},
 	module: {

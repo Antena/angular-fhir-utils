@@ -2,10 +2,9 @@
 
 var angular = require('angular');
 
-var ngModule = angular.module('antena.angular-fhir-utils', [ ]);
+var ngModule = angular.module('angular-fhir-utils', [ ]);
 
-var FhirUtils = require('fhir-utils');
-ngModule.service('FhirBundleResolverService', FhirUtils.BundleResolverService);
-ngModule.service('FhirRangeService', FhirUtils.RangeService);
+ngModule.service('FhirBundleResolverService', require('./fhir-bundle-resolver-service'));
+ngModule.service('FhirRangeService', require('./fhir-range-service'));
 
 module.exports = ngModule.name;
