@@ -2,9 +2,11 @@
 
 var angular = require('angular');
 
-var ngModule = angular.module('angular-fhir-utils', [ ]);
-
-ngModule.service('FhirBundleResolverService', require('./fhir-bundle-resolver-service'));
-ngModule.service('FhirRangeService', require('./fhir-range-service'));
+var ngModule = angular.module('angular-fhir-utils', [
+	require('./bundle/index'),
+	require('./range/index'),
+	require('./patient/index'),
+	require('./types/index')
+]);
 
 module.exports = ngModule.name;

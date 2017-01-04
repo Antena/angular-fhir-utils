@@ -2,7 +2,7 @@
 
 /**
  * @ngdoc service
- * @name angular-fhir-utils.service:FhirBundleResolverService
+ * @name angular-fhir-utils.bundle.service:FhirBundleResolverService
  * @kind function
  *
  * @description
@@ -37,7 +37,7 @@ module.exports = function() {
 		/**
 		 * @ngdoc function
 		 * @name resolveOrderAndReportReferences
-		 * @methodOf angular-fhir-utils.service:FhirBundleResolverService
+		 * @methodOf angular-fhir-utils.bundle.service:FhirBundleResolverService
 		 * @description
 		 *
 		 * Takes a FHIR bundle, and resolves all references starting from a `DiagnosticOrder`. If a orderValueIdentifier is provided,

@@ -8,10 +8,7 @@ module.exports = function(grunt) {
 			options: {
 				dest: 'docs',
 				scripts: [
-					//TODO (denise) add bundle + remove angular once examples are added in docs
-					// 'dist/bundle.js',
-
-					'node_modules/angular/angular.min.js',
+					'dist/bundle.js',
 					'node_modules/angular-animate/angular-animate.min.js'
 				],
 				styles: [

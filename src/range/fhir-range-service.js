@@ -2,7 +2,7 @@
 
 /**
  * @ngdoc service
- * @name angular-fhir-utils.service:FhirRangeService
+ * @name angular-fhir-utils.range.service:FhirRangeService
  * @kind function
  *
  * @description
@@ -20,7 +20,7 @@ module.exports = function() {
 		/**
 		 * @ngdoc function
 		 * @name filterRanges
-		 * @methodOf angular-fhir-utils.service:FhirRangeService
+		 * @methodOf angular-fhir-utils.range.service:FhirRangeService
 		 * @description
 		 *
 		 * Filters ranges that are age or gender specific, given the patient data.
@@ -37,7 +37,7 @@ module.exports = function() {
 		/**
 		 * @ngdoc function
 		 * @name isRangeAgeAppropriate
-		 * @methodOf angular-fhir-utils.service:FhirRangeService
+		 * @methodOf angular-fhir-utils.range.service:FhirRangeService
 		 * @description
 		 *
 		 * Checks whether or not a range is appropriate given the patient's age. Supports all standard {@link https://www.hl7.org/fhir/2015MAY/quantity-comparator.html quantity comparators} plus `equals` ('==').
@@ -53,7 +53,7 @@ module.exports = function() {
 		/**
 		 * @ngdoc function
 		 * @name valueToYears
-		 * @methodOf angular-fhir-utils.service:FhirRangeService
+		 * @methodOf angular-fhir-utils.range.service:FhirRangeService
 		 * @description
 		 *
 		 * Converts an age quantity in any of these units to years: months (code 'mo'), months (code 'd'), months (code 'wk'). For more info see {@link http://download.hl7.de/documents/ucum/ucumdata.html full list of UCUM codes}.
@@ -68,7 +68,7 @@ module.exports = function() {
 		/**
 		 * @ngdoc function
 		 * @name valueInRange
-		 * @methodOf angular-fhir-utils.service:FhirRangeService
+		 * @methodOf angular-fhir-utils.range.service:FhirRangeService
 		 * @description
 		 *
 		 * Determines if a value fits in a specified range.
