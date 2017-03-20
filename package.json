@@ -59,7 +59,7 @@
   },
   "dependencies": {
     "angular": "~1.4.x",
-    "fhir-utils": "0.0.2",
+    "fhir-utils": "~0.0",
     "underscore": "^1.8.3"
   }
 }
