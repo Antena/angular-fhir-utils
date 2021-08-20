@@ -1,5 +1,5 @@
 {
-  "name": "angular-fhir-utils",
+  "name": "@wellbin/angular-fhir-utils",
   "version": "0.0.5",
   "description": "Collection of helper utilities related to FHIR v0.5.0 speficification (https://www.hl7.org/fhir/2015MAY/).",
   "keywords": [
@@ -9,13 +9,13 @@
     "angular"
   ],
   "license": "MIT",
-  "homepage": "https://github.com/Antena/angular-fhir-utils",
+  "homepage": "https://github.com/wellbin/angular-fhir-utils",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Antena/angular-fhir-utils"
+    "url": "https://github.com/wellbin/angular-fhir-utils"
   },
   "bugs": {
-    "url": "https://github.com/Antena/angular-fhir-utils/issues"
+    "url": "https://github.com/wellbin/angular-fhir-utils/issues"
   },
   "author": {
     "name": "Denise Fernandez",
